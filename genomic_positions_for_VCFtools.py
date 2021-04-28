@@ -16,3 +16,6 @@ for i, j in zip(LGs, positions):
    outfile.write(i + "\t" + str(j) + "\n")
 
 outfile.close()
+
+
+# This file is then used by VCFtools
