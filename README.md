@@ -16,7 +16,7 @@ First we need to create a file to submit to BLAST, this is in the FASTA format.
 Run the Create_BLAST_input_file.py to create this file.
 
 Then go to BLAST https://blast.ncbi.nlm.nih.gov/Blast.cgi and enter apis mellifera in the BLAST genomes input box
-Hit search and the new 3.1 genome should appear in the databse draopdown box.
+Hit search and the new 3.1 genome should appear in the database dropdown box.
 
 Upload the blast_file.fa which you have created.
 
@@ -46,5 +46,5 @@ pinto et al list of SNPs.
 
 Use amm_snp_filtering.sh for this.
 
-To visualise our VCT file we can run PCA_of_filtered_VCF_file.py. This creates a rough PCA plot to allow some initial visualisation
+To visualise our VCF file we can run PCA_of_filtered_VCF_file.py. This creates a rough PCA plot to allow some initial visualisation
 and analysis before more stringent methods are used (STRUCTURE etc.)
